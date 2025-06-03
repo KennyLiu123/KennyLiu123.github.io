@@ -12,7 +12,6 @@ body {
     --orange-dark: #bf360c;
 }
 
-/* ===== Sidebar Styles ===== */
 .sidebar {
     width: 300px;
     background: var(--orange-light);
@@ -23,7 +22,7 @@ body {
 }
 
 .sidebar-content {
-    padding-top: 40px; /* Added top padding */
+    padding-top: 40px; 
 }
 
 /* Name Styling */
@@ -90,10 +89,10 @@ body {
     background: white;
 }
 
-.section {
+.section { /*main in every tab */
     min-height: 100vh;
     padding: 80px 0;
-    line-height: 2em;
+    line-height: 2em; /*make it double spaced */
 }
 
 .section h2 {
