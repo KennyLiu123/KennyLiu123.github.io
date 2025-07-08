@@ -130,3 +130,18 @@ body {
         padding-top: 20px; /* Adjusted for mobile */
     }
 }
+
+
+.skills-container {
+    display: flex;           /* Enable Flexbox layout */
+    justify-content: left; /* Horizontally center icons */
+    align-items: center;    /* Vertically center icons */
+    flex-wrap: wrap;        /* Allow icons to wrap on smaller screens */
+    gap: 20px;             /* Space between icons */
+}
+
+.skills-container img {
+    width: 100px;           /* Set fixed width (adjust as needed) */
+    height: auto;          /* Maintain aspect ratio */
+    object-fit: contain;   /* Prevent distortion */
+}
