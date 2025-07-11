@@ -86,7 +86,7 @@ body {
     margin-left: 300px;
     padding: 50px;
     min-height: 100vh;
-    background: white;
+    background: rgb(255, 255, 255);
 }
 
 .section { /*main in every tab */
